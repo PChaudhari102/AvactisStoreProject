@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 01 22:25:37 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>333 seconds (333602 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.checkOutUsingUrls()'><b>checkOutUsingUrls</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: -pg1-, cid35, Computers, cid35, Apparel, 36, 55, 2, Avactis T-Shirt, full_tax_exempt_status, subscriptionTopics[Topics][2], BCE5D24D-666C-43CA-94A0-D6F775903BE2_1, Avactis T-Shirt, $31.98, $1.28, $33.26, 4</td>
+<td></td>
+<td>48</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.GoToRegisterNewAccount()'><b>GoToRegisterNewAccount</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: pvc123@gmail.com, 123, 123, priya, Test, 1234, Mumbai, MG Road, AGC College, 1234567890</td>
+<td></td>
+<td>22</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.checkOutUsingUrls()'><b>checkOutUsingUrls</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: -pg1-, cid33, , cid33, Furniture, 161, , , KARLSTAD modular sofa, checkbox_shipping_same_as_billing, subscriptionTopics[Topics][1], BCE5D24D-666C-43CA-94A0-D6F775903BE2_3, KARLSTAD modular sofa, $828.00, $41.40, $869.40, 3</td>
+<td></td>
+<td>44</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.GoToRegisterNewAccount()'><b>GoToRegisterNewAccount</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: priya123@gmail.com, 322, 322, pvc, Testme, 1234, Pune, MG , AGC College, 2034989123</td>
+<td></td>
+<td>21</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.DeleteCustomers()'><b>DeleteCustomers</b><br>Test class: com.avactisstore.testcases.EndToEndTest</td>
+<td></td>
+<td>41</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.avactisstore.testcases.EndToEndTest</td>
+<td></td>
+<td>41</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.GoToRegisterNewAccount()'><b>GoToRegisterNewAccount</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: nvc123@gmail.com, 321, 321, nik, Testme, 1236, goa, AGC College, mina, 1234567809</td>
+<td></td>
+<td>22</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+<tr>
+<td title='com.avactisstore.testcases.EndToEndTest.checkOutUsingUrls()'><b>checkOutUsingUrls</b><br>Test class: com.avactisstore.testcases.EndToEndTest<br>Parameters: -pg1-, cid8, Computers, cid20, Notebooks, 8, , , Apple MacBook Air, checkbox_shipping_same_as_billing, subscriptionTopics[Topics][1], BCE5D24D-666C-43CA-94A0-D6F775903BE2_2, Apple MacBook Air, $1,799.00, $53.97, $1,852.97, 3</td>
+<td></td>
+<td>46</td>
+<td>com.avactisstore.testcases.EndToEndTest@36902638</td></tr>
+</table><p>
+</body>
+</html>
